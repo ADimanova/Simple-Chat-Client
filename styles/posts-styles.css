@@ -1,0 +1,18 @@
+.result-posts {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.result-posts li {
+    padding: 5px;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    font-family:Comic Sans MS;
+    color:#666666;
+}
+
+.result-posts li span{
+    font-weight: bold;
+    color: #8bba28;
+    text-shadow:1px 1px 0 dimgrey;
+}

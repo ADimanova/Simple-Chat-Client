@@ -1,0 +1,160 @@
+.logo {
+    color:#b8e356;
+    text-shadow:1px 1px 0 #86ae47;
+    margin-left: 20px;
+    font-size: 2.2em;
+    font-family: Comic Sans MS;
+}
+
+.main-nav {
+    margin-top: 20px;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    background-color: #E7F6C3;
+    padding: 10px;
+}
+
+.main-nav ul li{
+    display: inline-block;
+}
+
+.nav-link {
+    -moz-box-shadow:inset 0 1px 0 0 #d9fbbe;
+    -webkit-box-shadow:inset 0 1px 0 0 #d9fbbe;
+    box-shadow:inset 0 1px 0 0 #d9fbbe;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
+    background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+    background-color:#b8e356;
+    text-indent:0;
+    border:1px solid #83c41a;
+    display:inline-block;
+    color:#ffffff;
+    font-family: Comic Sans MS;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:30px;
+    line-height:30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0 #86ae47;
+    margin-right: 15px;
+}
+.nav-link:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
+    background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+    background-color:#a5cc52;
+}
+.nav-link:active {
+     position:relative;
+     top:1px;
+ }
+
+.gray {
+    color: darkgray;
+    text-shadow:1px 1px 0 dimgrey;
+}
+
+.dark-gray {
+    color: dimgrey;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.image {
+    margin: 10px;
+}
+
+#main-content {
+    margin-left:15px;
+}
+
+input {
+    display: block;
+    margin: 10px 10px 10px 2px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+#message {
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.request-btn {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+    background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+    background-color:#f9f9f9;
+    -webkit-border-top-left-radius:15px;
+    -moz-border-radius-topleft:15px;
+    border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -moz-border-radius-topright:15px;
+    border-top-right-radius:15px;
+    -webkit-border-bottom-right-radius:15px;
+    -moz-border-radius-bottomright:15px;
+    border-bottom-right-radius:15px;
+    -webkit-border-bottom-left-radius:15px;
+    -moz-border-radius-bottomleft:15px;
+    border-bottom-left-radius:15px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#666666;
+    font-family:Comic Sans MS;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:30px;
+    line-height:30px;
+    width:auto;
+    padding: 0 10px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+}
+.request-btn:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+    background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+    background-color:#e9e9e9;
+}
+.request-btn:active {
+     position:relative;
+     top:1px;
+}
+
+.post-form-holder {
+    float: left;
+    width: 300px;
+}
+
+.right-aligned {
+    float: left;
+}
+
+#get-result {
+    border: 1px solid rgb(169, 169, 169);
+    margin-top: 10px;
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+}
